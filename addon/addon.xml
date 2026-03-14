@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="PACKAGENAME" name="APPNAME" version="THEVERSION" provider-name="developeranaz">
+<addon id="PACKAGENAME" name="APPNAME" version="THEVERSION" provider-name="gofile.io">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -7,8 +7,8 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Browse and play videos from gofile.io Cloudflare Worker</summary>
-        <description lang="en_GB">This addon allows you to browse folders and play videos hosted on a Cloudflare Worker.</description>
+    <summary lang="en_GB">Browse and play videos from gofile.io</summary>
+    <description lang="en_GB">This addon allows users to browse folders and play videos hosted through their own gofile.io and Cloudflare Worker setup. It is developed solely for educational, personal, and lawful use. The developer does not host, store, upload, or control any of the content viewed through Kodi. All content, links, and configurations are created and managed by users at their own discretion and under their own responsibility. All data transfers occur directly between the user's device, their own Cloudflare Worker, and gofile.io. The developer has no access to, visibility of, or control over any files, streams, or data handled through this addon. gofile.io acts only as the file hosting provider, and the user may be the owner or controller of the hosted content. The developer does not support, encourage, or accept responsibility for any malicious, illegal, or unauthorized use of this addon, including the embedding, streaming, or sharing of pirated, copyrighted, or otherwise unlawful content. Any misuse of this addon is solely the responsibility of the end user.</description>
         <platform>all</platform>
         <language>en</language>
         <license>MIT</license>
