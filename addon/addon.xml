@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.sundaran" name="Sundaran Video" version="1.1.0" provider-name="YourName">
+<addon id="PACKAGENAME" name="APPNAME" version="THEVERSION" provider-name="developeranaz">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -7,12 +7,12 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Browse and play videos from Sundaran's Cloudflare Worker</summary>
+        <summary lang="en_GB">Browse and play videos from gofile.io Cloudflare Worker</summary>
         <description lang="en_GB">This addon allows you to browse folders and play videos hosted on a Cloudflare Worker.</description>
         <platform>all</platform>
         <language>en</language>
         <license>MIT</license>
-        <source>https://github.com/yourusername/plugin.video.sundaran</source>
+        <source>https://github.com/developeranaz</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
